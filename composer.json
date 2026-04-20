@@ -1,0 +1,35 @@
+{
+    "name": "nodir/laravel-oneid",
+    "description": "O'zbekiston OneID (EGov SSO) OAuth integratsiyasi Laravel uchun. JWT autentifikatsiya, RBAC, auto user registration.",
+    "keywords": ["laravel", "oneid", "egov", "uzbekistan", "oauth", "sso", "jwt", "rbac"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nodir",
+            "email": "nodir@example.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0|^13.0",
+        "illuminate/http": "^11.0|^12.0|^13.0",
+        "illuminate/routing": "^11.0|^12.0|^13.0",
+        "illuminate/database": "^11.0|^12.0|^13.0",
+        "firebase/php-jwt": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nodir\\OneId\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nodir\\OneId\\OneIdServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
