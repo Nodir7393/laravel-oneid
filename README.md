@@ -159,4 +159,30 @@ $user->activate(); // pending → active
 
 ## Litsenziya
 
-MIT
+[MIT License](LICENSE) - xohlaganingizcha ishlatishingiz mumkin.
+
+---
+
+## 👨‍💻 Muallif
+
+**Nodir** — Senior PHP Developer, Uzbekistan
+
+- 🌐 GitHub: [@Nodir7393](https://github.com/YOUR_USERNAME)
+- 💼 Ish: Laravel, Yii2, Next.js, PostgreSQL
+
+---
+
+## ⭐ Loyihaga yordam berish
+
+Agar paket yoqdi va ishingizga yaragan bo'lsa:
+
+- ⭐ GitHub'da yulduzcha qo'ying
+- 🐛 Topilgan bug'lar haqida xabar bering
+- 💡 Yangi g'oyalar bilan bo'lishing
+- 📢 Do'stlaringiz bilan ulashing
+
+---
+
+<p align="center">
+  Made with ❤️ in Uzbekistan 🇺🇿
+</p>
